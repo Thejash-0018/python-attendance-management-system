@@ -56,7 +56,6 @@ class AttendanceApp(tk.Tk):
             (self.mark_tab, "Mark Attendance"),
             (self.reports_tab, "Reports"),
             (self.history_tab, "Attendance History"),
-            (self.co_tab, "CO Demonstrations"),
             (self.student_portal_tab, "Student Portal"),
         ]
         for frame, title in tabs:
