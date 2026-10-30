@@ -17,12 +17,12 @@ class Student(User):
         self.class_name = class_name
 
 
-class Faculty(User):
-    """Faculty member model."""
+# class Faculty(User):
+#     """Faculty member model."""
 
-    def __init__(self, employee_id, name):
-        super().__init__(name)
-        self.employee_id = employee_id
+#     def __init__(self, employee_id, name):
+#         super().__init__(name)
+#         self.employee_id = employee_id
 
 
 class Subject:
